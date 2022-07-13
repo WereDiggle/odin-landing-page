@@ -17,13 +17,21 @@ body {
     display: flex;
 }
 
-.top-bar ul {
-    padding: 0px;
-    margin: 0px 0px 0px auto;
+ul {
     list-style: none;
+    padding: 0px;
+}
+
+.top-bar ul {
+    margin: 0px 0px 0px auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
+}
+
+.card {
+    width: 200px
 }
 
 .top-bar ul a {
@@ -35,3 +43,11 @@ body {
 
 }
 
+.information {
+    text-align: center;
+}
+
+.information ul {
+    display: flex;
+
+}
