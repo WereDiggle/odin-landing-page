@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+    padding: 10px 100px 100px 100px;
     background-color: #1f2937;
     color: white;
     display: flex;
