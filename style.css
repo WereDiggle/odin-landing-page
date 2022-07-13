@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.top-bar {
+    display: flex;
+}
+
+.top-bar ul {
+    padding: 0px;
+    margin: 0px 0px 0px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.top-bar ul a {
+    text-decoration: none;
+}
+
+.top-media {
+    display: flex;
+
+}
+
