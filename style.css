@@ -5,17 +5,28 @@ body {
     align-items: stretch;
 }
 
-.header {
-    padding: 10px 100px 100px 100px;
+.header-background {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; 
+    padding-bottom: 50px;
+}
+
+.header {
+    width: 500px;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 100px;
+
 }
 
 .top-bar {
     display: flex;
+    width: 500px;
+    flex: 1 0 auto;
 }
 
 ul {
