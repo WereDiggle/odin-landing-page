@@ -68,3 +68,26 @@ ul {
 .author {
     align-self: flex-end;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.bottom-signup {
+    background-color: blue;
+    color: white;
+    margin-bottom: 50px;
+    padding: 20px 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.bottom-signup p {
+    margin: 0px;
+}
