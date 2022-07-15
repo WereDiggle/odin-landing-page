@@ -157,14 +157,19 @@ ul {
 }
 
 .bottom-signup {
-    background-color: blue;
-    color: white;
+    background-color: #3882f6;
+    color: #f9faf8;
     margin-bottom: 50px;
-    padding: 20px 50px;
-
+    padding: 30px 70px;
+    align-self: center;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 50px;
+}
+
+.bottom-signup strong {
+    font-size: 18px
 }
 
 .bottom-signup p {
