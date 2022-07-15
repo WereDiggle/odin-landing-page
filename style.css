@@ -107,6 +107,19 @@ ul {
     gap: 50px;
 }
 
+.signup-button {
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+.bottom-signup .signup-button {
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
 .bottom-signup {
     background-color: blue;
     color: white;
