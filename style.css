@@ -178,13 +178,10 @@ ul {
 
 .footer {
     background-color: darkblue;
-    color: white;
+    background-color: #1f2937;
+    color: #e5e7eb;
     text-align: center;
     padding: 20px;
-}
-
-.dark-bg {
-    background-color: #1f2937;
 }
 
 .hero-text {
