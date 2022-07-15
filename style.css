@@ -46,6 +46,7 @@ ul {
 
 .top-bar ul a {
     text-decoration: none;
+    color: #e5e7eb
 }
 
 .top-media {
@@ -63,7 +64,7 @@ ul {
 .top-media img {
     width: 500px;
     height: 200px;
-    object-fit: scale-down;
+    object-fit: cover;
     flex-basis: auto;
     flex-shrink: 0;
 }
